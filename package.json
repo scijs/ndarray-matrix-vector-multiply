@@ -1,0 +1,36 @@
+{
+  "name": "ndarray-matrix-vector-product",
+  "version": "0.0.0",
+  "description": "Dense matrix-vector multiplication",
+  "main": "mvp.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ndarray": "~1.0.8",
+    "tape": "~2.1.0",
+    "tap": "~0.4.4"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/ndarray-matrix-vector-multiply.git"
+  },
+  "keywords": [
+    "ndarray",
+    "matrix",
+    "vector",
+    "multiply",
+    "product",
+    "dense"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/ndarray-matrix-vector-multiply/issues"
+  }
+}
